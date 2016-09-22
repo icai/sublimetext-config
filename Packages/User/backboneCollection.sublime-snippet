@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+define(
+	[
+		'jquery',
+		'underscore',
+		'backbone',
+		'${1:Your Model Path}',
+	], function(\$, _, Backbone, ${2:alias}Model){
+		return Backbone.Collection.extend({
+			model: ${2:alias}Model
+			urlRoot: '${3:/api/}'${4:,
+			initialize: function(){\}}
+        });
+	}
+);
+]]></content>
+	<tabTrigger>bcollection</tabTrigger>
+	<description>Backbone Collection define</description>
+	<scope>source.js</scope>
+</snippet>

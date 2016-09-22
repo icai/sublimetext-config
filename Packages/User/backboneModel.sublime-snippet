@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+define(
+	[
+		'jquery',
+		'underscore',
+		'backbone',
+	], function(\$, _, Backbone){
+		return Backbone.Model.extend({
+			urlRoot: '${1:/api/}',
+            initialize: function(){
+
+            },
+            defaults: function(){
+                return {
+
+                };
+            },
+        });
+
+	}
+);
+]]></content>
+	<tabTrigger>bmodel</tabTrigger>
+	<description>Backbone Model define</description>
+	<scope>source.js</scope>
+</snippet>

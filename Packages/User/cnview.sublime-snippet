@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+
+define([
+    'jquery',
+    'underscore',
+    'backbone',
+    'doT',
+    'bootbox',
+    'text!templates/course/badges/award/recptable.html'
+], function($, _, Backbone, doT, bootbox, ViewTemplate) {
+
+    return Backbone.View.extend({
+        template: doT.template(ViewTemplate),
+        initialize: function(options) {
+        },
+        serialize: function() {
+
+        },
+        events: {
+        },
+        afterRender: function() {}
+    });
+
+});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cnview</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

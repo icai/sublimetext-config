@@ -93,4 +93,12 @@ Backup
 Cache
 Local
 Index
+
 */PyV8/*
+**/*/node_modules/*
+
+# ignore some files
+KEEPME
+Packages/User/Package\ Control.last-run
+Packages/User/oscrypto-ca-bundle.crt
+Package Control.cache

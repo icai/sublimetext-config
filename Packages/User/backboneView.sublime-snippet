@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+define(
+	[
+		'jquery',
+		'underscore',
+		'backbone',
+		'doT',
+		'pubsub',
+	], function(\$, _, Backbone, doT, PubSub, ViewTemplate){
+		return Backbone.View.extend({
+            template: doT.template(ViewTemplate),
+            className: '${1:className}',
+            serialize: function() {
+            },
+            initialize: function(){
+				
+            },
+			beforeRender: function(){
+				this.setViews({
+
+				});
+			},
+			afterRender: function(){
+
+			}
+		});
+	}
+);
+]]></content>
+	<tabTrigger>bview</tabTrigger>
+	<description>Backbone View define</description>
+	<scope>source.js</scope>
+</snippet>
