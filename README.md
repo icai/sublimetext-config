@@ -10,8 +10,7 @@ A front end developer's Sublime Text editor configure
 	HTML	       mdpopups		      pytz	       SublimeLinter
 
 
-	0_package_control_loader.sublime-package
-	0_package_control_loader.sublime-package-new
+
 	Alignment.sublime-package
 	AlignTab.sublime-package
 	ApplySyntax.sublime-package
@@ -27,7 +26,6 @@ A front end developer's Sublime Text editor configure
 	jQuery\ Snippets\ pack.sublime-package
 	Markdown\ Preview.sublime-package
 	nginx.sublime-package
-	Package\ Control.sublime-package
 	Python\ 3.sublime-package
 	Python\ Completions.sublime-package
 	PyYapf\ Python\ Formatter.sublime-package
