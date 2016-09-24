@@ -99,13 +99,26 @@ Index
 
 # ignore some files
 KEEPME
-Packages/User/Package\ Control.last-run
-Packages/User/oscrypto-ca-bundle.crt
-Package Control.cache
-Package\ Control.merged-ca-bundle
-Package\ Control.sublime-settings
-Package\ Control.system-ca-bundle
-Package\ Control.sublime-package
+oscrypto-ca-bundle.crt
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.user-ca-bundle
+Package Control.merged-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.sublime-settings
+
 0_package_control_loader.sublime-package-new
 0_package_control_loader.sublime-package
-/Packages/User/Package Control.user-ca-bundle
+
+
+Packages/markupsafe/
+Packages/python-jinja2/
+Packages/pyyaml/
+Packages/mdpopups/
+Packages/python-markdown/
+Packages/pygments/    
+Packages/pytz/  
+
